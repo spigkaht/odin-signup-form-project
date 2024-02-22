@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 1450px) {
@@ -38,9 +38,16 @@ button {
 input {
   margin: 0.25rem 5rem 0 0;
   height: 1.6rem;
-  padding: 5px;
+  padding: 5px 5px 5px 8px;
   width: 15rem;
   border: 1px solid #E5E7EB;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 2px 2px 5px rgba(58, 7, 197, 0.247);
+  outline: none;
 }
 
 #logo {

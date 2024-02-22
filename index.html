@@ -39,27 +39,40 @@
           method="post"
         >
           <div class="input input-name">
-            <label class="input-text">FIRST NAME</label>
-            <input type="text" />
-            <label class="input-text">SURNAME</label>
-            <input type="text" />
+            <div>
+              <label class="input-text" for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="first-name" />
+            </div>
+            <div>
+              <label class="input-text" for="surname">SURNAME</label>
+              <input type="text" id="surname" name="surname" />
+            </div>
           </div>
           <div class="input input-contact">
-            <label class="input-text">EMAIL</label>
-            <input type="text" />
-            <label class="input-text">PHONE NUMBER</label>
-            <input type="text" />
+            <div>
+              <label class="input-text" for="email">EMAIL</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div>
+              <label class="input-text" for="phone">PHONE NUMBER</label>
+              <input type="text" id="phone" name="phone" />
+            </div>
           </div>
           <div class="input input-password">
-            <label class="input-text">PASSWORD</label>
-            <input type="text" />
-            <label class="input-text">CONFIRM PASSWORD</label>
-            <input type="text" />
+            <div>
+              <label class="input-text" for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div>
+              <label class="input-text" for="password-confirm">CONFIRM PASSWORD</label>
+              <input type="password" id="password-confirm" name="password-confirm" />
+            </div>
           </div>
-        </form>
+        
         <div class="create-account">
-          <button>Create Account</button>
+          <button type="submit">Create Account</button>
         </div>
+      </form>
         <div>Already have an account? <a href="">Log in</a></div>
       </div>
     </div>
